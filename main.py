@@ -1,20 +1,51 @@
-# This is a sample Python script.
-
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+## Determine el valor de un pasaje en avión
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#entradas
+
+DistR =int(input("¿distancia ha recorrer en Kilometros  ?: "))
+TiempoE =int(input("¿Cuantos días se desea quedar ?: "))
+ValorKm = 35
+
+#variables
+
+#funciones
+
+def CostoVuelo (DistR):
+    "Esta función retorna el costo de vuelo por kilometros recorridos "
+    return DistR * ValorKm
+
+def DescVuelo (DistR, TiempoE ):
+    "Esta función me dice si  el viaje  aplica un  descuento  "
+    if DistR > 1000 and TiempoE > 7:
+        return True
+    return False
+if DescVuelo(DistR, TiempoE):
+    CostoTotal  = 0.3 * CostoVuelo(DistR)
+    print(f' el valor del vuelo es : {CostoTotal}')
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#CostoTotal = CostoVuelo(DistR)
 
 
 
-## probando git
+
+
+
+
+
+
+
+
+
+
+
+
+
+## hacer validacionde parametros para meter rangos aceptables
+
+
+
+
+
