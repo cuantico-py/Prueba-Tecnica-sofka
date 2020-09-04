@@ -1,29 +1,30 @@
-#Prueba Técnica – Training Calidad 
+# Prueba Técnica – Training Calidad 
 
 
 Preguntas a resolver: 
  --
  Conceptos Generales
-##1. Defina en sus palabras   ¿que es la calidad de software.?
+ 
+## 1. Defina en sus palabras   ¿que es la calidad de software.?
 
 
 
-##2. Explique la diferencia entre un sistema de control de versiones centralizado y un sistema de control de versiones distribuido.
+## 2. Explique la diferencia entre un sistema de control de versiones centralizado y un sistema de control de versiones distribuido.
 
 
-##3. ¿Cuál es el comando utilizado en git para clonar un proyecto?
+## 3. ¿Cuál es el comando utilizado en git para clonar un proyecto?
 
-##4. ¿Qué realizan los siguientes comandos de git?
+## 4. ¿Qué realizan los siguientes comandos de git?
 
-###a. git add -miClase 
-###b. git add -A
-###c. git status
-###d. git pull
-###e. git push
-###f. git commit -m “Hola”
-###g. git log
+### a. git add -miClase 
+### b. git add -A
+### c. git status
+### d. git pull
+### e. git push
+### f. git commit -m “Hola”
+### g. git log
 
-##5. Describa en desarrollo de software que es la herencia y que es el polimorfismo 
+## 5. Describa en desarrollo de software que es la herencia y que es el polimorfismo 
 
 
 ## Algoritmos y Lógica de Programación
@@ -51,10 +52,10 @@ Kg.
  
 Para un vuelo cualquiera se pide:
 
-###a) Número total de bultos ingresados para el vuelo
+### a) Número total de bultos ingresados para el vuelo
 
-###b) Peso del bulto más pesado y del más liviano
+### b) Peso del bulto más pesado y del más liviano
 
-###c) Peso promedio de los bultos
+### c) Peso promedio de los bultos
 
-###d) Ingreso en pesos y en dólares por concepto de carga. Construya una tabla de seguimiento con no menos de 15 bultos para  realizar la prueba del algoritmo. 
+### d) Ingreso en pesos y en dólares por concepto de carga. Construya una tabla de seguimiento con no menos de 15 bultos para  realizar la prueba del algoritmo. 

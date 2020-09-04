@@ -13,7 +13,7 @@ class Vuelo():
             CostoTotal = CostoTotal - Descuento
         print(f' el valor del vuelo es. : {CostoTotal}')
 
-#funciones
+#metodos
 
     def CostoVuelo (self, DistR):
         ValorKm = 35
