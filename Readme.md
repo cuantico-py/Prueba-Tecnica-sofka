@@ -16,7 +16,7 @@ un sistema de control de versiones distribuido.
 Los sistemas de control de versiones centralizados se basan en la idea de que hay una única copia "central" de su proyecto en algún lugar (probablemente en un servidor), y los programadores "confirmarán" sus cambios en esta copia central.
 Los sistemas centralizados suelen ser más fáciles de entender y usar
 Puede otorgar control de nivel de acceso a nivel de directorio
- 
+ ![Alt text] (https://github.com/cuantico-py/Prueba-Tecnica-sofka/tree/master/imagenes/a.png)
 ![Screenshot](a.png)
 
 En el control de versiones distribuidas, cada desarrollador "clona" una copia de un repositorio y tiene el historial completo del proyecto en su propio disco duro. Esta copia (o "clon") tiene todos los metadatos del original
