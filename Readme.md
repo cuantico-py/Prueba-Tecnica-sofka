@@ -54,4 +54,4 @@ a) Número total de bultos ingresados para el vuelo
 b) Peso del bulto más pesado y del más liviano
 c) Peso promedio de los bultos
 d) Ingreso en pesos y en dólares por concepto de carga. Construya una tabla de
-seguimiento con no menos de 15 bultos para 
+seguimiento con no menos de 15 bultos para  realizar la prueba del algoritmo. 
