@@ -6,7 +6,6 @@ Preguntas a resolver:
  Conceptos Generales
 1. Defina en sus palabras   ¿que es la calidad de software.?
 
-Es la forma de presentar código limpio, se presenta como la recopilación de buenas prácticas en el desarrollo de software y los atributos deseables de estos, esta calidad implica una estructura organizativa, un control de defectos y características de calidad como Fiabilidad, Operabilidad, Seguridad, , Mantenibilidad entro otros 
 
 
 2. Explique la diferencia entre un sistema de control de versiones centralizado y
