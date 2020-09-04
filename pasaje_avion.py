@@ -1,5 +1,5 @@
 ## Determine el valor de un pasaje en avión
-
+import sys
 class Vuelo():
     def __init__(self, DistR, TiempoE):
         self.DistR = DistR
@@ -25,10 +25,14 @@ class Vuelo():
         if DistR > 1000 and TiempoE > 7:
              return True
         return False
+try:
+    DistR =int(input("¿distancia ha recorrer en Kilometros?:  "))
+    TiempoE =int(input("¿Cuantos días se desea quedar?:  "))
 
-DistR =int(input("¿distancia ha recorrer en Kilometros?:  "))
-TiempoE =int(input("¿Cuantos días se desea quedar?:  "))
+except ValueError:
 
+    print("valor introducido es incorrecto, solo ingrese distancias y tiempo de estancia  positivas numericas  ")
+    sys.exit(1)
 
 CostoVuelo =  Vuelo(DistR, TiempoE)
 ## hacer validacionde parametros para meter rangos aceptables
