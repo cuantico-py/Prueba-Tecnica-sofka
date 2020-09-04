@@ -9,7 +9,8 @@ class Vuelo():
 
 #CostoTotal = CostoVuelo(DistR)
         if self.DescVuelo(self.DistR, self.TiempoE):
-            CostoTotal  = 0.3 * CostoTotal
+            Descuento  = 0.3 * CostoTotal
+            CostoTotal = CostoTotal - Descuento
         print(f' el valor del vuelo es. : {CostoTotal}')
 
 #funciones
