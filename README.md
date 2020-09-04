@@ -9,6 +9,7 @@ Para la ejecución de los algoritmos simplemente se nos piden unos datos de entr
  Solución algoritmo uno: “pasaje_avion.py”
 
  Solucion algoritmo dos: control_de_carga.py
+ NOTA: se deben importar 2 librerias numpy y sys
  
  en el algortimo 2
  
